@@ -1,0 +1,23 @@
+micronaut:
+    application:
+        name: hwk-client
+grpc:
+    client:
+        plaintext: true
+        max-retry-attempts: 0
+        discovery:
+            enabled: true
+endpoints:
+    all:
+        enabled: false
+        sensitive: false
+        path: "/mgmt"
+    health:
+        enabled: true
+        sensitive: false
+        discovery-client:
+            enabled: true
+    loggers:
+        enabled: true
+        sensitive: false
+        write-sensitive: false

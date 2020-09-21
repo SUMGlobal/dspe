@@ -1,0 +1,27 @@
+micronaut:
+    application:
+        name: hwk-server
+grpc:
+    server:
+        port: 8081
+endpoints:
+    all:
+        enabled: false
+        sensitive: false
+        path: "/mgmt"
+    health:
+        enabled: true
+        sensitive: false
+        discovery-client:
+            enabled: true
+    loggers:
+        enabled: true
+        sensitive: false
+        write-sensitive: false
+
+# Uncomment to enable service discovery with Consul
+#consul:
+#    client:
+#        registration:
+#            enabled: true
+#        defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"
