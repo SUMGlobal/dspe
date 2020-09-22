@@ -1,0 +1,105 @@
+2020-09-21T20:36:28.259207Z	debug	envoy http2	[C397] updating connection-level initial window size to 268435456
+2020-09-21T20:36:28.259263Z	trace	envoy http2	[C397] dispatching 70 bytes
+2020-09-21T20:36:28.259279Z	trace	envoy http2	[C397] about to recv frame type=4, flags=0
+2020-09-21T20:36:28.259293Z	trace	envoy http2	[C397] track inbound frame type=4 flags=0 length=24 padding_length=0
+2020-09-21T20:36:28.259349Z	trace	envoy http2	[C397] recv frame type=4
+2020-09-21T20:36:28.259392Z	trace	envoy http2	[C397] about to recv frame type=8, flags=0
+2020-09-21T20:36:28.259406Z	trace	envoy http2	[C397] track inbound frame type=8 flags=0 length=4 padding_length=0
+2020-09-21T20:36:28.259418Z	trace	envoy http2	[C397] recv frame type=8
+2020-09-21T20:36:28.259435Z	trace	envoy http2	[C397] dispatched 70 bytes
+2020-09-21T20:36:28.259549Z	trace	envoy http2	[C397] about to send frame type=4, flags=0
+2020-09-21T20:36:28.259562Z	trace	envoy http2	[C397] send data: bytes=33
+2020-09-21T20:36:28.259661Z	trace	envoy http2	[C397] sent frame type=4
+2020-09-21T20:36:28.259704Z	trace	envoy http2	[C397] about to send frame type=4, flags=1
+2020-09-21T20:36:28.259717Z	trace	envoy http2	[C397] send data: bytes=9
+2020-09-21T20:36:28.259728Z	trace	envoy http2	[C397] sent frame type=4
+2020-09-21T20:36:28.259739Z	trace	envoy http2	[C397] about to send frame type=8, flags=0
+2020-09-21T20:36:28.259777Z	trace	envoy http2	[C397] send data: bytes=13
+2020-09-21T20:36:28.259792Z	trace	envoy http2	[C397] sent frame type=8
+2020-09-21T20:36:28.268719Z	trace	envoy http2	[C397] dispatching 9 bytes
+2020-09-21T20:36:28.268797Z	trace	envoy http2	[C397] about to recv frame type=4, flags=1
+2020-09-21T20:36:28.268813Z	trace	envoy http2	[C397] track inbound frame type=4 flags=1 length=0 padding_length=0
+2020-09-21T20:36:28.268832Z	trace	envoy http2	[C397] recv frame type=4
+2020-09-21T20:36:28.268845Z	trace	envoy http2	[C397] dispatched 9 bytes
+2020-09-21T20:36:28.280839Z	trace	envoy http2	[C397] dispatching 164 bytes
+2020-09-21T20:36:28.280898Z	trace	envoy http2	[C397] about to recv frame type=1, flags=36
+2020-09-21T20:36:28.280915Z	trace	envoy http2	[C397] track inbound frame type=1 flags=36 length=133 padding_length=0
+2020-09-21T20:36:28.280980Z	debug	envoy http2	[C397] invalid frame: Invalid HTTP header field was received on stream 3
+[2020-09-21T20:36:28.280Z] "- - HTTP/2" 0 DPE "-" "-" 0 0 0 - "-" "-" "-" "-" "-" - - 10.42.0.29:8080 10.42.1.41:51444 - -
+[2020-09-21T20:36:28.240Z] "GET /hello/George HTTP/1.1" 500 - "-" "-" 0 83 1055 1055 "-" "curl/7.64.1" "b62889b4-0a05-9f2d-8e60-eb807709050c" "192.168.64.15:8080" "127.0.0.1:8080" inbound|8080|http|hwk-client.default.svc.cluster.local 127.0.0.1:42540 10.42.1.41:8080 10.42.1.1:57581 - default
+[2020-09-21T20:36:29.287Z] "- - -" 0 - "-" "-" 1521 3684 46 - "-" "-" "-" "-" "192.168.64.14:6443" outbound|443||kubernetes.default.svc.cluster.local 10.42.1.41:42376 10.43.0.1:443 10.42.1.41:53074 - -
+
+
+
+
+2020-09-21T20:36:49.051272Z	debug	envoy http2	[C412] updating connection-level initial window size to 268435456
+2020-09-21T20:36:49.052115Z	trace	envoy http2	[C412] dispatching 70 bytes
+2020-09-21T20:36:49.052438Z	trace	envoy http2	[C412] about to recv frame type=4, flags=0
+2020-09-21T20:36:49.052805Z	trace	envoy http2	[C412] track inbound frame type=4 flags=0 length=24 padding_length=0
+2020-09-21T20:36:49.053100Z	trace	envoy http2	[C412] recv frame type=4
+2020-09-21T20:36:49.053267Z	trace	envoy http2	[C412] about to recv frame type=8, flags=0
+2020-09-21T20:36:49.053474Z	trace	envoy http2	[C412] track inbound frame type=8 flags=0 length=4 padding_length=0
+2020-09-21T20:36:49.053786Z	trace	envoy http2	[C412] recv frame type=8
+2020-09-21T20:36:49.054233Z	trace	envoy http2	[C412] dispatched 70 bytes
+2020-09-21T20:36:49.054505Z	trace	envoy http2	[C412] about to send frame type=4, flags=0
+2020-09-21T20:36:49.054801Z	trace	envoy http2	[C412] send data: bytes=33
+2020-09-21T20:36:49.055105Z	trace	envoy http2	[C412] sent frame type=4
+2020-09-21T20:36:49.055395Z	trace	envoy http2	[C412] about to send frame type=4, flags=1
+2020-09-21T20:36:49.055717Z	trace	envoy http2	[C412] send data: bytes=9
+2020-09-21T20:36:49.056059Z	trace	envoy http2	[C412] sent frame type=4
+2020-09-21T20:36:49.056324Z	trace	envoy http2	[C412] about to send frame type=8, flags=0
+2020-09-21T20:36:49.056359Z	trace	envoy http2	[C412] send data: bytes=13
+2020-09-21T20:36:49.056428Z	trace	envoy http2	[C412] sent frame type=8
+2020-09-21T20:36:49.059828Z	trace	envoy http2	[C412] dispatching 9 bytes
+2020-09-21T20:36:49.060477Z	trace	envoy http2	[C412] about to recv frame type=4, flags=1
+2020-09-21T20:36:49.060520Z	trace	envoy http2	[C412] track inbound frame type=4 flags=1 length=0 padding_length=0
+2020-09-21T20:36:49.060657Z	trace	envoy http2	[C412] recv frame type=4
+2020-09-21T20:36:49.060766Z	trace	envoy http2	[C412] dispatched 9 bytes
+2020-09-21T20:36:49.074542Z	trace	envoy http2	[C412] dispatching 167 bytes
+2020-09-21T20:36:49.074741Z	trace	envoy http2	[C412] about to recv frame type=1, flags=36
+2020-09-21T20:36:49.074814Z	trace	envoy http2	[C412] track inbound frame type=1 flags=36 length=136 padding_length=0
+2020-09-21T20:36:49.074995Z	trace	envoy http2	[C412] recv frame type=1
+2020-09-21T20:36:49.075413Z	trace	envoy http2	[C66] about to send frame type=1, flags=4
+2020-09-21T20:36:49.075647Z	trace	envoy http2	[C66] send data: bytes=118
+2020-09-21T20:36:49.075741Z	trace	envoy http2	[C66] sent frame type=1
+2020-09-21T20:36:49.076260Z	trace	envoy http2	[C412] about to recv frame type=0, flags=1
+2020-09-21T20:36:49.076962Z	trace	envoy http2	[C412] recv frame type=0
+2020-09-21T20:36:49.077068Z	trace	envoy http2	[C412] track inbound frame type=0 flags=1 length=13 padding_length=0
+2020-09-21T20:36:49.077230Z	trace	envoy http2	[C66] sent frame type=0
+2020-09-21T20:36:49.077402Z	trace	envoy http2	[C412] dispatched 167 bytes
+2020-09-21T20:36:49.094345Z	trace	envoy http2	[C66] dispatching 45 bytes
+2020-09-21T20:36:49.094401Z	trace	envoy http2	[C66] about to recv frame type=1, flags=4
+2020-09-21T20:36:49.094438Z	trace	envoy http2	[C66] recv frame type=1
+2020-09-21T20:36:49.094888Z	trace	envoy http2	[C412] about to send frame type=1, flags=4
+2020-09-21T20:36:49.095006Z	trace	envoy http2	[C412] send data: bytes=118
+2020-09-21T20:36:49.095372Z	trace	envoy http2	[C412] sent frame type=1
+2020-09-21T20:36:49.096330Z	trace	envoy http2	[C66] dispatched 45 bytes
+2020-09-21T20:36:49.099545Z	trace	envoy http2	[C66] dispatching 28 bytes
+2020-09-21T20:36:49.099670Z	trace	envoy http2	[C66] about to recv frame type=0, flags=0
+2020-09-21T20:36:49.099684Z	trace	envoy http2	[C66] recv frame type=0
+2020-09-21T20:36:49.099732Z	trace	envoy http2	[C412] sent frame type=0
+2020-09-21T20:36:49.100642Z	trace	envoy http2	[C66] dispatched 28 bytes
+2020-09-21T20:36:49.101452Z	trace	envoy http2	[C66] dispatching 10 bytes
+2020-09-21T20:36:49.101522Z	trace	envoy http2	[C66] about to recv frame type=1, flags=5
+2020-09-21T20:36:49.101543Z	trace	envoy http2	[C66] recv frame type=1
+2020-09-21T20:36:49.102136Z	trace	envoy http2	[C412] about to send frame type=1, flags=5
+2020-09-21T20:36:49.102210Z	trace	envoy http2	[C412] send data: bytes=21
+2020-09-21T20:36:49.102614Z	trace	envoy http2	[C412] sent frame type=1
+2020-09-21T20:36:49.102626Z	debug	envoy http2	[C412] stream closed: 0
+2020-09-21T20:36:49.102654Z	debug	envoy http2	[C66] stream closed: 0
+2020-09-21T20:36:49.103105Z	trace	envoy http2	[C66] dispatched 10 bytes
+2020-09-21T20:36:49.117361Z	trace	envoy http2	[C412] dispatching 17 bytes
+2020-09-21T20:36:49.117403Z	trace	envoy http2	[C412] about to recv frame type=6, flags=0
+2020-09-21T20:36:49.117411Z	trace	envoy http2	[C412] track inbound frame type=6 flags=0 length=8 padding_length=0
+2020-09-21T20:36:49.117417Z	trace	envoy http2	[C412] recv frame type=6
+2020-09-21T20:36:49.117426Z	trace	envoy http2	[C412] dispatched 17 bytes
+2020-09-21T20:36:49.117438Z	trace	envoy http2	[C412] about to send frame type=6, flags=1
+2020-09-21T20:36:49.117448Z	trace	envoy http2	[C412] send data: bytes=17
+2020-09-21T20:36:49.117462Z	trace	envoy http2	[C412] sent frame type=6
+2020-09-21T20:36:50.574066Z	trace	envoy http2	[C1] dispatching 17 bytes
+2020-09-21T20:36:50.574130Z	trace	envoy http2	[C1] about to recv frame type=6, flags=0
+2020-09-21T20:36:50.574148Z	trace	envoy http2	[C1] recv frame type=6
+2020-09-21T20:36:50.574161Z	trace	envoy http2	[C1] dispatched 17 bytes
+2020-09-21T20:36:50.574187Z	trace	envoy http2	[C1] about to send frame type=6, flags=1
+2020-09-21T20:36:50.574196Z	trace	envoy http2	[C1] send data: bytes=17
+2020-09-21T20:36:50.574212Z	trace	envoy http2	[C1] sent frame type=6
