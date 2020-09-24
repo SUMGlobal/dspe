@@ -1,6 +1,6 @@
 # hwk (hello-world-kotlin)
 
-This repo has been created to demonstrate a bug, that we believe to be in Micronaut. We have taken
+This repo has been created to demonstrate a bug, that we believe to be in Micronaut (https://github.com/micronaut-projects/micronaut-grpc/issues/235). We have taken
 the hello-world-kotlin example from the micronaut-gprc project and created separate client and server
 services. Both services support Micronaut's logger (`/mgmt/logger`) and health (`/mgmt/health`) management endpoints.
 
